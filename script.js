@@ -5,9 +5,9 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I love you too! 😘";
+  question.innerHTML = "I love you this much! 😘";
   gif.src =
-    "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
+    "<iframe src="https://giphy.com/gifs/marvel-endgame-i-love-you-3000-J5Xd9gM8TphqCmfy2k">via GIPHY</a></p>";
 });
 
 noBtn.addEventListener("mouseover", () => {
